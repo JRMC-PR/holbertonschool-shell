@@ -1,2 +1,2 @@
 #!/bin/bash
-fin . -name '*[[:~]]' -delete 
+fin . -name '*[[:~]]' -delete {} +  
