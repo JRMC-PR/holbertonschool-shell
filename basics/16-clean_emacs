@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -iname ".~"  -delet {} +
+find . -iname "*[[:~:]]*" -exec -delet {} +
