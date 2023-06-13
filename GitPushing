@@ -1,0 +1,13 @@
+#!/bin/bash
+# First, promt the user for the file name. 
+echo Please entre the file name you wish to add:
+# Second, save the imput from the user to the variable "FileName".
+read Filename
+# Thir, promt the user for the comit messaje.
+echo Enter the commit message:
+# Fourth, Save the commit message inf the variabe "CommitMessage"
+read CommitMessage 
+# Fith, run the series of command to push to GitHub with the given variables 
+git add "$Filename"
+git commit -m "$CommitMessage"
+git push 
